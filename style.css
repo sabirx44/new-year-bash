@@ -263,6 +263,29 @@ main {
     position: relative;
 }
 
+.girl {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    margin-bottom: -4px;
+}
+
+.fifty {
+    position: absolute;
+    left: 700px;
+    top: 70px;
+    z-index: 1;
+
+}
+
+.red {
+    position: absolute;
+    top: 500px;
+    right: 10px;
+    margin-top: -7px;
+}
+
+
 .portfolio-title-1 {
     color: #F00;
     font-family: 'Inter';
@@ -270,6 +293,7 @@ main {
     font-weight: 500;
     margin-top: 120px;
 }
+
 
 .portfolio-title-2 {
     color: #070211;
@@ -290,6 +314,10 @@ main {
 .portfolio-img {
     margin-top: 50px;
     gap: 50px;
+}
+
+.portfolio-img img:hover {
+    padding: 25px;
 }
 
 .portfolio-img-row-1 {
@@ -399,7 +427,11 @@ main {
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
-    max-width: 250px;
+    max-width: 220px;
+}
+
+.foot-part-3 h6 {
+    display: flex;
 }
 
 .bad-den {
